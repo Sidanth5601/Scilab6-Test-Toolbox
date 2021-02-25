@@ -19,12 +19,12 @@ path_builder = get_absolute_file_path('builder_gateway_cpp.sce');
 
 Function_Names = [
         
-        "multiply","sci_multiply", "csci6";
+        "transpose","sci_transpose", "csci6";
     ];
 
 //Name of all the files to be compiled
 Files = [
-				"sci_multiply.cpp"
+				"sci_transpose.cpp"
 				]
 
 

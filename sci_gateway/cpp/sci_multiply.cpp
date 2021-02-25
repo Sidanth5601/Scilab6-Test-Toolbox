@@ -1,4 +1,5 @@
-// Copyright (C) 2019 - IIT Bombay - FOSSEE
+ 
+ iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii// Copyright (C) 2019 - IIT Bombay - FOSSEE
 //
 // This file must be used under the terms of the CeCILL.
 // This source file is licensed as described in the file COPYING, which
@@ -9,7 +10,7 @@
 // Organization: FOSSEE, IIT Bombay
 // Email: toolbox@scilab.in
 extern "C"
-{
+
 #include<Scierror.h>
 #include<api_scilab.h>
 #include <stdio.h>
