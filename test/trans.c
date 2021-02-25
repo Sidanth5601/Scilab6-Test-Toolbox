@@ -2,14 +2,12 @@
 #include <stdlib.h>
 #include "trans.h"
 
-//n -- rows, m -- columns
-int transpose(double answ[3][2], double arr[2][3],int  n,int  m)
+int transpose(double* input, double* output,int  n)
 {
-    int i ,j ;
-    for (i = 0; i < n; i++) 
-        for (j = 0; j < m; j++)
-           *(*(answ + j) + i) = *(*(arr + i) + j) ;
-          //  j[answ][i] = i[arr][j];
-     return 0;       
+    for(int i = 0 ; i < n ; i++)
+    {
+        output[i] = input[i];
+    }         
+    return 0;
 }
  
